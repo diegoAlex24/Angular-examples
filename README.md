@@ -15,8 +15,9 @@ Todos los códigos son recopilatorios de diversos tutoriales, tareas y ejemplos 
 
 ### Contenido
 
-1. programa_1.ts
-    * 
+1. world-cup-map
+    * Aplicación con Angular 8 de los países que participaron en el mundial de rusia 2018 con ayuda de la libreria Leaflet.
+
 
 [Repositorio](https://github.com/diegoAlex24/Angular-examples).
 
