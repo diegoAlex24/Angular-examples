@@ -18,7 +18,24 @@ Todos los códigos son recopilatorios de diversos tutoriales, tareas y ejemplos 
 1. world-cup-map
     * Aplicación con Angular 8 de los países que participaron en el mundial de rusia 2018 con ayuda de la libreria Leaflet.
 
-
+### Uso
+Para instalar hay que abrir una consola y poner el siguiente comando
+```console
+$ npm install -g @angular/cli
+```
+Para revisar la version instalada de Angular utilizamos
+```console
+$ ng --version
+```
+Para crear un proyecto usamos
+```console
+$ ng new nombreProyecto
+```
+Para compilar el proyecto
+```console
+$ ng serve
+```
+	
 [Repositorio](https://github.com/diegoAlex24/Angular-examples).
 
 ### Otros repositorios
