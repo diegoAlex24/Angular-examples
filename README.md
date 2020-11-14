@@ -19,13 +19,21 @@ Todos los códigos son recopilatorios de diversos tutoriales, tareas y ejemplos 
     * Aplicación con Angular 8 de los países que participaron en el mundial de rusia 2018 con ayuda de la libreria Leaflet.
 
 ### Uso
-Para instalar hay que abrir una consola y poner el siguiente comando
+Para instalar angular se requiere tener node previamente instalado, después hay que abrir una consola y poner el siguiente comando.
 ```console
 $ npm install -g @angular/cli
 ```
 Para revisar la version instalada de Angular utilizamos
 ```console
 $ ng --version
+```
+Si queremos la versión más nueva utilizamos
+```console
+$ npm install -g @angular/cli@latest
+```
+Si se quiere instalar una versión especifica entonces se usa el siguiente comando, donde se reemplazan las XX por el número de versión deseada.
+```console
+$ npm install -g @angular/cli@XX.XX
 ```
 Para crear un proyecto usamos
 ```console
@@ -35,7 +43,18 @@ Para compilar el proyecto
 ```console
 $ ng serve
 ```
-	
+
+#### Borrar o cambiar versión de Angular
+Si queremos instalar otra version o borrar Angular hay que poner los siguientes comandos.
+```console
+$ npm uninstall -g @angular/cli
+```
+Después tenemos que verificar y borrar la cache
+```console
+$ npm cache verify
+$ npm cache clean --force
+```
+
 [Repositorio](https://github.com/diegoAlex24/Angular-examples).
 
 ### Otros repositorios
